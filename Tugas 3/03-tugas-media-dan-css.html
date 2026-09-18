@@ -14,6 +14,10 @@
 
         <header class="page__header">
 
+            <span class="page__label">
+                E-Learning
+            </span>
+
             <h1 class="page__title">
                 Pemutar Media Kuliah Responsif
             </h1>
@@ -51,90 +55,194 @@
 
             <div class="media-card__content">
 
-                <h2 class="media-card__title">
-                    Rekayasa Media Digital dan Dasar-Dasar CSS
-                </h2>
+                <section class="media-card__intro">
 
-                <p class="media-card__description">
-                    Materi pembelajaran mengenai penggunaan media digital
-                    HTML5, gambar responsif, pemutar video dan audio,
-                    serta dasar-dasar CSS.
-                </p>
+                    <span class="media-card__category">
+                        Pemrograman Website
+                    </span>
 
-                <section class="media-card__section">
+                    <h2 class="media-card__title">
+                        Rekayasa Media Digital dan Dasar-Dasar CSS
+                    </h2>
 
-                    <h3 class="media-card__section-title">
-                        Video Pembelajaran
-                    </h3>
-
-                    <p class="media-card__section-description">
-                        Simak video pembelajaran berikut untuk memahami
-                        materi secara lebih lengkap.
+                    <p class="media-card__description">
+                        Materi pembelajaran mengenai penggunaan media digital
+                        HTML5, gambar responsif, pemutar video dan audio,
+                        CSS Box Model, metodologi BEM, serta spesifisitas CSS.
                     </p>
-
-                    <video
-                        class="media-card__video"
-                        controls
-                        preload="metadata"
-                        poster="assets/images/poster-video.jpg"
-                    >
-
-                        <source
-                            src="assets/videos/materi-kuliah.webm"
-                            type="video/webm"
-                        >
-
-                        <source
-                            src="assets/videos/materi-kuliah.mp4"
-                            type="video/mp4"
-                        >
-
-                        Browser Anda tidak mendukung pemutaran video HTML5.
-
-                        <a href="assets/videos/materi-kuliah.mp4">
-                            Unduh video
-                        </a>.
-
-                    </video>
 
                 </section>
 
-                <section class="media-card__section">
+                <div class="media-card__info">
 
-                    <h3 class="media-card__section-title">
-                        Audio Pembelajaran
-                    </h3>
+                    <div class="media-card__info-item">
 
-                    <p class="media-card__section-description">
-                        Dengarkan audio berikut untuk membantu mengingat
-                        kembali poin utama dari materi pembelajaran.
-                    </p>
+                        <span class="media-card__info-label">
+                            Mata Kuliah
+                        </span>
 
-                    <audio
-                        class="media-card__audio"
-                        controls
-                        preload="metadata"
-                    >
+                        <strong class="media-card__info-value">
+                            Pemrograman Website
+                        </strong>
 
-                        <source
-                            src="assets/audios/ringkasan.ogg"
-                            type="audio/ogg"
-                        >
+                    </div>
 
-                        <source
-                            src="assets/audios/ringkasan.mp3"
-                            type="audio/mpeg"
-                        >
+                    <div class="media-card__info-item">
 
-                        Browser Anda tidak mendukung pemutaran audio HTML5.
+                        <span class="media-card__info-label">
+                            Topik Pembelajaran
+                        </span>
 
-                        <a href="assets/audios/ringkasan.mp3">
-                            Unduh audio
-                        </a>.
+                        <strong class="media-card__info-value">
+                            Media Digital & CSS
+                        </strong>
 
-                    </audio>
+                    </div>
+
+                </div>
+
+                <section class="media-card__section media-card__section--video">
+
+                    <header class="media-card__section-header">
+
+                        <div class="media-card__section-icon">
+                            01
+                        </div>
+
+                        <div>
+
+                            <span class="media-card__section-label">
+                                Materi Video
+                            </span>
+
+                            <h3 class="media-card__section-title">
+                                Video Pembelajaran
+                            </h3>
+
+                        </div>
+
+                    </header>
+
+                    <div class="media-card__section-content">
+
+                        <p class="media-card__section-description">
+                            Simak video pembelajaran berikut untuk memahami
+                            penerapan media digital dan CSS secara lebih lengkap.
+                        </p>
+
+                        <div class="media-card__video-wrapper">
+
+                            <video
+                                class="media-card__video"
+                                controls
+                                preload="metadata"
+                                poster="assets/images/poster-video.jpg"
+                            >
+
+                                <source
+                                    src="assets/videos/materi-kuliah.webm"
+                                    type="video/webm"
+                                >
+
+                                <source
+                                    src="assets/videos/materi-kuliah.mp4"
+                                    type="video/mp4"
+                                >
+
+                                Browser Anda tidak mendukung pemutaran video HTML5.
+
+                                <a href="assets/videos/materi-kuliah.mp4">
+                                    Unduh video
+                                </a>.
+
+                            </video>
+
+                        </div>
+
+                    </div>
 
                 </section>
+
+                <section class="media-card__section media-card__section--audio">
+
+                    <header class="media-card__section-header">
+
+                        <div class="media-card__section-icon">
+                            02
+                        </div>
+
+                        <div>
+
+                            <span class="media-card__section-label">
+                                Ringkasan Audio
+                            </span>
+
+                            <h3 class="media-card__section-title">
+                                Audio Pembelajaran
+                            </h3>
+
+                        </div>
+
+                    </header>
+
+                    <div class="media-card__section-content">
+
+                        <p class="media-card__section-description">
+                            Dengarkan audio berikut untuk membantu mengingat
+                            kembali poin utama dari materi pembelajaran.
+                        </p>
+
+                        <div class="media-card__audio-wrapper">
+
+                            <audio
+                                class="media-card__audio"
+                                controls
+                                preload="metadata"
+                            >
+
+                                <source
+                                    src="assets/audios/ringkasan.ogg"
+                                    type="audio/ogg"
+                                >
+
+                                <source
+                                    src="assets/audios/ringkasan.mp3"
+                                    type="audio/mpeg"
+                                >
+
+                                Browser Anda tidak mendukung pemutaran audio HTML5.
+
+                                <a href="assets/audios/ringkasan.mp3">
+                                    Unduh audio
+                                </a>.
+
+                            </audio>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <footer class="media-card__footer">
+
+                    <div>
+
+                        <span class="media-card__footer-label">
+                            E-Learning
+                        </span>
+
+                        <p class="media-card__footer-text">
+                            Pemrograman Website
+                        </p>
+
+                    </div>
+
+                    <span class="media-card__footer-brand">
+                        UNHAS
+                    </span>
+
+                </footer>
 
             </div>
 
