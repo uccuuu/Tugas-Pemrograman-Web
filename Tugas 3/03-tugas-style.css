@@ -105,3 +105,9 @@ body {
     background-color: #101820;
     border-radius: 10px;
 }
+
+.media-card__audio {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+}
