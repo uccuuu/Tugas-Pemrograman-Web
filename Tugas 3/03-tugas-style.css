@@ -48,6 +48,21 @@ body {
     box-shadow: 0 10px 28px rgba(31, 47, 61, 0.08);
 }
 
+.media-card__picture {
+    display: block;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-color: #dfe5e9;
+}
+
+.media-card__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .media-card__content {
     padding: 30px;
 }

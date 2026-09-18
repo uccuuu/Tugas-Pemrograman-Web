@@ -26,6 +26,29 @@
 
         <article class="media-card">
 
+            <picture class="media-card__picture">
+
+                <source
+                    media="(min-width: 800px)"
+                    srcset="assets/images/kuliah-large.webp"
+                    type="image/webp"
+                >
+
+                <source
+                    media="(max-width: 799px)"
+                    srcset="assets/images/kuliah-small.webp"
+                    type="image/webp"
+                >
+
+                <img
+                    class="media-card__image"
+                    src="assets/images/kuliah-fallback.jpg"
+                    alt="Ilustrasi mahasiswa mengikuti pembelajaran pemrograman website"
+                    loading="lazy"
+                >
+
+            </picture>
+
             <div class="media-card__content">
 
                 <h2 class="media-card__title">
