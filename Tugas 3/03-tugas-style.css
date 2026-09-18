@@ -77,3 +77,31 @@ body {
     color: #657485;
     font-size: 1rem;
 }
+
+.media-card__section {
+    margin-top: 24px;
+    padding: 20px;
+    background-color: #f7f9fa;
+    border: 1px solid #dde4e9;
+    border-radius: 14px;
+}
+
+.media-card__section-title {
+    color: #18354f;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.media-card__section-description {
+    color: #657485;
+    font-size: 0.9rem;
+    margin-bottom: 14px;
+}
+
+.media-card__video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #101820;
+    border-radius: 10px;
+}
